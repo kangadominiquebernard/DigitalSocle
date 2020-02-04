@@ -45,6 +45,12 @@ global
     vars (window device + fonts {assets})
 	  
   images urls --> assets
+ 
+  - Creation de l'app init
+  
+ react-native init socle --version x.xx.x
+ renommer le package manuellement ma.takkdom.socle (MainActiviy , MainApplication, BUCK , build.gradle)
+ install redux , react-redux , react-native-i18n, react-navigation,react-native-gesture-handler, native-base
 	  
 	  
 	  
