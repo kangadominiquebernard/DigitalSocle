@@ -1,4 +1,3 @@
-import { changeAppToken } from 'global/actions/authentication';
 import { getData } from 'global/utils';
 import request from 'superagent';
 
