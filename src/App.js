@@ -1,13 +1,13 @@
 import React from 'react'
-import Navigation from './src/routes'
+import Navigation from './navigation'
 import { Provider } from 'react-redux'
-import STORE from './src/store/createStore';
+import STORE from './store/createStore';
 
 export default class App extends React.Component {
   render() {
     return (
       <Provider store={STORE}>
-        <Navigation/>
+        <Navigation />
       </Provider>
     )
   }

@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
-import demoMiddlewareApi from 'global/reducers/demoMiddlewareApi';
-import RootReducer from 'global/reducers/root';
+//import demoMiddlewareApi from './middlewares/MiddleWareAPI/demoMiddlewareApi';
+import RootReducer from '../features/ui/reducer';
 
 
 export default combineReducers({
 
   rootreducer: RootReducer,
-  demomiddlewareapi: demoMiddlewareApi
+  //demomiddlewareapi: demoMiddlewareApi
 });

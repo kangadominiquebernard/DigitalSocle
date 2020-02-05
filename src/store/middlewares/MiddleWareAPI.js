@@ -1,4 +1,4 @@
-import { getData } from 'global/utils';
+import { getData } from '../../global/LocalStorageIO';
 import request from 'superagent';
 
 
