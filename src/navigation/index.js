@@ -1,14 +1,19 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 
-import PublicNavigator from './PublicNavigation';
+import IN_APP_STACK from './DrawerStack';
+import OUT_APP_STACK from './AuthenticationStack';
+
 
 const RootNavigator = createSwitchNavigator(
   {
-    Public: PublicNavigator,
-    
+   
+    OutApp: OUT_APP_STACK,
+
+    InApp: IN_APP_STACK,
+
   },
   {
-    initialRouteName: 'Public',
+    initialRouteName: 'InApp',
   },
 );
 

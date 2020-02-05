@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 
-import { TouchableOpacity, Text } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 
 class Smart extends Component {
-
   constructor(props){
-      super(props);
-  }
+    super(props);
+}
 
   render() {
     return (
-
       <TouchableOpacity onPress={this.props.navigation.openDrawer()}>
-            <Text>TEEST</Text>
-        </TouchableOpacity>
+      <Text>TEEST</Text>
+  </TouchableOpacity>
     );
   }
 }
