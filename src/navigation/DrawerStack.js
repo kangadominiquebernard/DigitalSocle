@@ -1,3 +1,5 @@
+
+import React from 'react';
 import {createAppContainer} from "react-navigation";
 import { createDrawerNavigator } from 'react-navigation-drawer';
 import Home from '../features/home/screens';
@@ -15,9 +17,9 @@ const IN_APP_STACK = createDrawerNavigator(
         drawerPosition:  'left',
         /*backBehavior: 'initialRoute',*/
         contentOptions: {
-            activeTintColor: 'red'
+            activeTintColor: 'green'
         },
-        contentComponent: props => <DrawerLeft {...props} />
+        contentComponent: props => <DrawerLeft {...props}/>
     }
 );
 

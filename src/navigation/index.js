@@ -13,7 +13,7 @@ const RootNavigator = createSwitchNavigator(
 
   },
   {
-    initialRouteName: 'InApp',
+    initialRouteName: 'OutApp',
   },
 );
 
